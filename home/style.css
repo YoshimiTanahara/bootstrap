@@ -1,0 +1,89 @@
+body {
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+  width: 60vw;
+  height: 50vh;
+  margin-top: 100px;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  padding: 0;
+}
+
+main {
+  height: 650px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 360px;
+  padding: 0 0 0;
+  background-color: black;
+  color: #cc66ff;
+}
+
+.contact .form {
+  margin:50px 0 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-left {
+  margin-right: 50px;
+}
+
+.form .name,
+.form .email {
+  height: 50px;
+  width: 400px;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 5px groove darkgray;
+  }
+
+.form .name {
+  margin-bottom :20px;
+}
+
+.form-right .inquiry {
+  height: 120px;
+  width: 400px;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 5px groove darkgray;
+}
+
+.contact button {
+  background-color: #cc66ff;
+  border: 3px groove darkgray;
+  border-radius: 10px;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  box-sizing: border-box;
+  transition-duration: 500ms;
+  cursor: pointer;
+  padding: 15px 30px;
+  }
+
+.contact button:hover {
+  background-color: #fff;
+  transition-duration: 500ms;
+  }
